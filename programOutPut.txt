@@ -1,0 +1,39 @@
+⬢[benjamin@toolbox stack]$ zig build test
+All 3 tests passed.
+⬢[benjamin@toolbox stack]$ zig build run
+Stack Program V1.0 By Benjamin Swaby
++ : push
+- : pop
+? : peek
+Example : +45 : add 45 to the stack
+Enter Command [0](+,-,?): +Test of a String
+Enter Command [1](+,-,?): ?
+Element Type String
+Value = Test of a String
+Enter Command [1](+,-,?): +43
+Enter Command [2](+,-,?): ?
+Element Type Integer
+Value as int = 43
+Enter Command [2](+,-,?): -
+Enter Command [1](+,-,?): ?
+Element Type String
+Value = Test of a String
+Enter Command [1](+,-,?): -
+Enter Command [0](+,-,?): ?
+Cannot read from empty stack
+Enter Command [0](+,-,?): -
+Cannot pop from an empty stack
+Enter Command [0](+,-,?): +1
+Enter Command [1](+,-,?): +2
+Enter Command [2](+,-,?): +3
+Enter Command [3](+,-,?): +4
+Enter Command [4](+,-,?): +6
+Enter Command [5](+,-,?): +7
+Enter Command [6](+,-,?): +8
+Cannot push to a full stack
+Enter Command [6](+,-,?): ?
+Element Type Integer
+Value as int = 7
+Enter Command [6](+,-,?): asdasd
+Not a valid Command
+Enter Command [6](+,-,?):
